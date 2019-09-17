@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--        We import our applicationContext of intruments on this xml-file to have access -->
+        <import resource="applicationContext-instrument.xml"></import>
+        <bean id="artist" class="com.mazuryk.spring.core.beanimport.Artist">
+            <property name="name" value="Vladyslav"></property>
+            <property name="instrument" ref="instrument"></property> <!-- this reference will have their fields -->
+        </bean>
+</beans>

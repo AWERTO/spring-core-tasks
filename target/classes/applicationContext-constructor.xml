@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    You can initiate your bean in that way with name values-->
+<!--        <bean id="person" class="com.mazuryk.spring.core.xmlconfig.constructor.Person">-->
+<!--            <constructor-arg name="id" value="1"/>-->
+<!--            <constructor-arg name="firstName" value="Vladyslav"/>-->
+<!--            <constructor-arg name="lastName" value="Mazuryk"/>-->
+<!--        </bean>-->
+
+<!--    Or you can do the same, but in const.arg you can inititiate with index -->
+    <bean id="person" class="com.mazuryk.spring.core.xmlconfig.constructor.Person">
+        <constructor-arg index="0" value="228"/><!-- this index -->
+        <constructor-arg index="1" value="Oleg"/>
+        <constructor-arg index="2" value="Vynnyk"/>
+    </bean>
+<!--    You can initiate your bean in that way with type values-->
+<!--        <bean id="person" class="com.mazuryk.spring.core.xmlconfig.constructor.Person">-->
+<!--            <constructor-arg type="int" value="1"/>-->
+<!--            <constructor-arg type="java.lang.String" value="Vladyslav"/>-->
+<!--            <constructor-arg type="java.lang.String" value="Mazuryk"/>-->
+<!--        </bean>-->
+</beans>
