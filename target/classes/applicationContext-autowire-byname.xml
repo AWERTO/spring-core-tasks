@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean name="zebra" class="com.mazuryk.spring.core.autowire.byname.Animal" autowire="byName">
+        <property name="username" value="vasya"></property>
+        <property name="height" value="200"></property>
+        <property name="weight" value="1000"></property>
+    </bean>
+    <bean name="location" class="com.mazuryk.spring.core.autowire.byname.Location">
+        <property name="area" value="National Zoopark"></property>
+        <property name="zone" value="African Zona"></property>
+        <property name="coordinates" value="23151561"></property>
+        <property name="country" value="Africa"></property>
+    </bean>
+</beans>

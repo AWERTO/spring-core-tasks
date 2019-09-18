@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean name="KPI" class="com.mazuryk.spring.core.autowire.byconstructor.University" autowire="constructor">
+        <constructor-arg name="name" value="Kyiv Polytechinc University"/>
+        <constructor-arg name="year" value="1888"/>
+        <constructor-arg name="level_graduating" value="IV"/>
+        <constructor-arg name="location" value="Kyiv, Polytechnic station of metro"/>
+    </bean>
+    <bean name="member" class="com.mazuryk.spring.core.autowire.byconstructor.Member">
+        <property name="firstName" value="Mikhail"></property>
+        <property name="lastName" value="Zgurovskiy"></property>
+        <property name="level" value="director"></property>
+        <property name="skill" value="director"></property>
+    </bean>
+</beans>

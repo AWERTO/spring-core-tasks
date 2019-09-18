@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="vlad" class="com.mazuryk.spring.core.autowire.no.Human">
+        <property name="username" value="AZ-123"></property>
+        <property name="name" value="Vladyslav"></property>
+        <property name="communication" ref="communication"></property>
+    </bean>
+    <bean name="communication" class="com.mazuryk.spring.core.autowire.no.Communication">
+        <property name="email" value="Kyiv"></property>
+        <property name="phone" value="Metalistov"></property>
+        <property name="zip_code" value="123213131"></property>
+        </bean>
+</beans>

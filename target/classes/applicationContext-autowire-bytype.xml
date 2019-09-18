@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean name="korosten" class="com.mazuryk.spring.core.autowire.bytype.Musical_school" autowire="byType">
+        <property name="name" value="Korosten musical school"></property>
+        <property name="weight" value="50"></property>
+        <property name="height" value="5"></property>
+        <property name="color" value="green"></property>
+        <property name="members" value="1000"></property>
+    </bean>
+    <bean name="intruments" class="com.mazuryk.spring.core.autowire.bytype.Intruments">
+        <property name="categories" value="string"></property>
+        <property name="intruments_color" value="yellow"></property>
+        <property name="intruments_name" value="guitar_yamaha_e5fd"></property>
+        <property name="type" value="wood"></property>
+    </bean>
+</beans>
