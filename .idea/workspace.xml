@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c073e7-05ed-4a50-9775-286682b556cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/autowire/byconstructor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/autowire/byconstructor/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/autowire/byconstructor/University.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/autowire/byname/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/autowire/byname/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/autowire/byname/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/autowire/bytype/Intruments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/autowire/bytype/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/autowire/bytype/Musical_school.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/autowire/no/Communication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/autowire/no/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/autowire/no/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-autowire-byconstructor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-autowire-byname.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-autowire-bytype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-autowire-no.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mazuryk/spring/core/applicationcontext/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mazuryk/spring/core/applicationcontext/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,8 +147,23 @@
       <updated>1567943359699</updated>
       <workItem from="1567943369548" duration="12905000" />
       <workItem from="1568731307139" duration="5310000" />
-      <workItem from="1568783183360" duration="4343000" />
+      <workItem from="1568783183360" duration="4910000" />
     </task>
+    <task id="LOCAL-00001" summary="Autowiring Beans">
+      <created>1568787728061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568787728061</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Autowiring Beans">
+      <created>1568787791772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568787791772</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,5 +179,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Autowiring Beans" />
+    <option name="LAST_COMMIT_MESSAGE" value="Autowiring Beans" />
   </component>
 </project>
