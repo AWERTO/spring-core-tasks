@@ -2,41 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c073e7-05ed-4a50-9775-286682b556cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/User.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/resourceBundles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aware/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aware/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aware/AwareConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aware/CustomResourceLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aware/EnvironmentInspector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aware/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aware/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aware/Welcome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/factory/staticfactory/DBReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/factory/staticfactory/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/factory/staticfactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/factory/staticfactory/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/factory/staticfactory/ReaderConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/factory/staticfactory/ReaderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/factory/staticfactory/ReaderType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/factory/staticfactory/SocketReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/lifecycle/FileConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/lifecycle/FileContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/lifecycle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/postprocessor/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/postprocessor/BeanConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/postprocessor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/postprocessor/PrintBeanNamePostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/profile/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/profile/DatabaseConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/profile/DatabaseConfigurationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/profile/DevDatabaseConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/profile/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/profile/TestDatabaseConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/welcome_fr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/welcome_ru_RU.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/welcome_ua_UA.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aop/basic/ArithmeticCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aop/basic/BasicCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aop/basic/CalculatorConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aop/basic/CalculatorLoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aop/basic/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -106,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mazuryk.spring.core.aware.Main" />
       <module name="spring-core-tasks" />
@@ -120,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mazuryk.spring.core.javaconfig.depends.on.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mazuryk.spring.core.aop.basic.Main" />
       <module name="spring-core-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mazuryk.spring.core.javaconfig.depends.on.*" />
+          <option name="PATTERN" value="com.mazuryk.spring.core.aop.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +180,8 @@
       <workItem from="1568731307139" duration="5310000" />
       <workItem from="1568783183360" duration="5120000" />
       <workItem from="1568889910291" duration="8217000" />
-      <workItem from="1568986775122" duration="12107000" />
+      <workItem from="1568986775122" duration="12923000" />
+      <workItem from="1569044681491" duration="4601000" />
     </task>
     <task id="LOCAL-00001" summary="Autowiring Beans">
       <created>1568787728061</created>
@@ -240,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568905806655</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Spring Beans in Depth&#10;- Bean Life Cycle Call backs&#10;- initMethod and destroyMethod&#10;- BeanPostProcessor&#10;- Using factory&#10;- Spring Profile and Environment&#10;- Aware Interfaces">
+      <created>1568999092377</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568999092377</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +240,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Autowiring Beans" />
     <MESSAGE value="Configuring Spring Beans - Java Based Conf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuring Spring Beans - Java Based Conf" />
+    <MESSAGE value="Spring Beans in Depth&#10;- Bean Life Cycle Call backs&#10;- initMethod and destroyMethod&#10;- BeanPostProcessor&#10;- Using factory&#10;- Spring Profile and Environment&#10;- Aware Interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Beans in Depth&#10;- Bean Life Cycle Call backs&#10;- initMethod and destroyMethod&#10;- BeanPostProcessor&#10;- Using factory&#10;- Spring Profile and Environment&#10;- Aware Interfaces" />
   </component>
 </project>
