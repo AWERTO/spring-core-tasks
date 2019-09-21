@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c073e7-05ed-4a50-9775-286682b556cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aop/basic/ArithmeticCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aop/basic/BasicCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aop/basic/CalculatorConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aop/basic/CalculatorLoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aop/basic/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/threading/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/threading/SpringTaskExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/threading/TaskExecutorConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/threading/ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/threading/ThreadingBasics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aop/basic/CalculatorLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mazuryk/spring/core/aop/basic/CalculatorLoggingAspect.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mazuryk.spring.core.aware.Main" />
       <module name="spring-core-tasks" />
@@ -103,38 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mazuryk.spring.core.lifecycle.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mazuryk.spring.core.threading.Main" />
       <module name="spring-core-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mazuryk.spring.core.lifecycle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mazuryk.spring.core.factory.staticfactory.Main" />
-      <module name="spring-core-tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mazuryk.spring.core.factory.staticfactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mazuryk.spring.core.postprocessor.Main" />
-      <module name="spring-core-tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mazuryk.spring.core.postprocessor.*" />
+          <option name="PATTERN" value="com.mazuryk.spring.core.threading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,13 +130,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mazuryk.spring.core.threading.ThreadPool" />
+      <module name="spring-core-tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mazuryk.spring.core.threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadingBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mazuryk.spring.core.threading.ThreadingBasics" />
+      <module name="spring-core-tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mazuryk.spring.core.threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.ThreadPool" />
+        <item itemvalue="Application.ThreadingBasics" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +181,7 @@
       <workItem from="1568783183360" duration="5120000" />
       <workItem from="1568889910291" duration="8217000" />
       <workItem from="1568986775122" duration="12923000" />
-      <workItem from="1569044681491" duration="4601000" />
+      <workItem from="1569044681491" duration="8578000" />
     </task>
     <task id="LOCAL-00001" summary="Autowiring Beans">
       <created>1568787728061</created>
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568999092377</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Spring Aspect Oriented Programming&#10;- AOP&#10;- Aspect and Advice&#10;- @Before, @After, @AfterRunning,@AfterThrowing, @Around&#10;- JoinPoint and Pointcut">
+      <created>1569072446692</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569072446692</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +248,7 @@
     <MESSAGE value="Autowiring Beans" />
     <MESSAGE value="Configuring Spring Beans - Java Based Conf" />
     <MESSAGE value="Spring Beans in Depth&#10;- Bean Life Cycle Call backs&#10;- initMethod and destroyMethod&#10;- BeanPostProcessor&#10;- Using factory&#10;- Spring Profile and Environment&#10;- Aware Interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Beans in Depth&#10;- Bean Life Cycle Call backs&#10;- initMethod and destroyMethod&#10;- BeanPostProcessor&#10;- Using factory&#10;- Spring Profile and Environment&#10;- Aware Interfaces" />
+    <MESSAGE value="Spring Aspect Oriented Programming&#10;- AOP&#10;- Aspect and Advice&#10;- @Before, @After, @AfterRunning,@AfterThrowing, @Around&#10;- JoinPoint and Pointcut" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Aspect Oriented Programming&#10;- AOP&#10;- Aspect and Advice&#10;- @Before, @After, @AfterRunning,@AfterThrowing, @Around&#10;- JoinPoint and Pointcut" />
   </component>
 </project>

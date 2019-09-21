@@ -54,7 +54,7 @@ public class CalculatorLoggingAspect {
         logger.info("Method arguments: " + Arrays.toString(proceedingJoinPoint.getArgs()));
         Object result;
         try {
-            result = proceedingJoinPoint.proceed(new Object[]{5.8,3.2});
+            result = proceedingJoinPoint.proceed(new Object[]{5.8,3.2 });
             return result;
         }
         catch (Throwable th){
